@@ -1,0 +1,712 @@
+:root {
+    --hover: #e23e38;
+}
+
+@media(min-width:1400px) {
+    /* logo part */
+    .pre_arr {
+        left: -18px;
+    }
+    .nxt_arr {
+        right: -18px;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1399.98px) {
+    /* logo part */
+    .pre_arr {
+        left: -15px;
+    }
+    .nxt_arr {
+        right: -15px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1100.98px) {
+    /* banner */
+    #banner .banner_item .banner_text h2::before {
+        left: -40px;
+    }
+    #banner .banner_item .banner_text h2::after {
+        right: -40px;
+    }
+    #banner .banner_item .banner_text h1::before {
+        left: -40px;
+    }
+    #banner .banner_item .banner_text h1::after {
+        right: -40px;
+    }
+    #banner .banner_item .banner_text p::before {
+        left: -40px;
+        bottom: -27px;             
+    }
+    #banner .banner_item .banner_text p::after {
+        right: -40px;
+        bottom: -27px;
+    }
+    #banner .banner_item .banner_text p {
+        padding: 10px 0;
+    }
+    /* Class */
+    #cls .cls_col .cls_item ul li {
+        width: 19.58%;
+    }
+    /* footer */
+    #footer .footer_bg .footer_row .footer_photos .photos_item li {
+        width: 21.62%;
+    }
+    #footer .footer_bg .footer_row .footer_contact .contact_us li a {
+        font-size: 12px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px) {
+    /* ============== menu part ============== */
+
+    .main_menu ul li a {
+        font-size: 13px;
+    }
+    /* =============== membership part ============= */
+    #membership .mem_row .mem_col h2 {
+        font-size: 13px;
+    }
+    #membership .mem_row .mem_col h3 {
+        font-size: 35px;;
+        line-height: 100px;
+    }
+    #membership .mem_row .mem_col ul {
+        padding: 20px 0;
+    }
+    #membership .mem_row .mem_col ul li {
+        padding-bottom: 8px;
+    }
+    #cls .cls_col .cls_item ul li {
+        width: 18.5%;
+        margin: 5px;
+    }
+    #cls .cls_col .cls_item ul li:last-child {
+        margin: 5px;
+    }
+    /* ========== footer ========== */
+
+    .footer_opening,
+    .footer_tweet{
+        padding-bottom: 10px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.98px) {
+    /* ==================  Menu Part Start  ================== */
+    .main_menu {
+        background: var(--hover);
+    }
+
+    .main_menu .navbar-brand {
+        width: 195px;
+        height: 50px;
+        line-height: 50px;
+        background: #111;
+    }
+
+    .main_menu .navbar-brand::after,
+    .main_menu .navbar-brand::before {
+        height: 50px;
+        background-color: #fff;
+    }
+
+    .main_menu .navbar-brand img {
+        width: 125px;
+    }
+
+    .main_menu .navbar-toggler i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: var(--hover);
+        text-align: center;
+    }
+
+    .main_menu #navbarSupportedContent ul li a::after {
+        display: none;
+    }
+
+    /* ==================  Menu Part End  ================== */
+
+    /* ==================  banner Part Start  ================== */
+    #banner .banner_text h2::after,
+    #banner .banner_text h2::before,
+    #banner .banner_text h1::after,
+    #banner .banner_text h1::before,
+    #banner .banner_text p::after,
+    #banner .banner_text p::before {
+        display: none;
+    }
+
+    #banner .banner_item {
+        padding: 180px 0 75px;
+    }
+
+    #banner .banner_item .banner_text h2 {
+        font-size: 30px;
+    }
+
+    #banner .banner_item .banner_text h1 {
+        font-size: 45px;
+    }
+
+    #banner .banner_item .banner_text p {
+        padding: 5px 10px 20px 10px;
+        font-size: 14px;
+    }
+
+    #banner .banner_item .banner_text a {
+        padding: 8px 12px;
+        font-size: 16px;
+        margin: 0px 6px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #banner .slick-dots li button {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* ==================  banner Part End  ================== */
+
+    /* ==================  About Part Start  ================== */
+    #about {
+        padding: 45px 0;
+    }
+
+    #about .about_text p span {
+        padding: 10px 0 0 0;
+    }
+
+    #about .about_text p {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 5px 10px 10px 10px;
+    }
+
+    /* ==================  About Part End  ================== */
+
+    /* ==================  Gallary Part Start  ================== */
+    .gal_banner .gal_col .gal_img:last-child {
+        margin-bottom: 30px;
+    }
+
+    /* ==================  Gallary Part End  ================== */
+
+    /* ==================  team Part Start  ================== */
+    #team {
+        padding: 45px 0 0 0;
+    }
+
+    #team .team_col .team_img .ovrly {
+        width: 96%;
+        opacity: 1;
+    }
+
+    #team .team_col .team_text {
+        border: 1px solid #dddddd;
+        border-top: 1px solid transparent;
+    }
+
+    #team .team_col .team_text p {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    #team .team_col {
+        margin-bottom: 20px;
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+    }
+
+    #team .col-lg-3:last-child .team_col {
+        margin-bottom: 0;
+    }
+
+    /* ==================  team Part End  ================== */
+
+    /* ==================  testimonial Part Start  ================== */
+    #testi .testi_bg .testi_slider .slick-dots {
+        bottom: -40px;
+    }
+
+    #testi .testi_bg .testi_slider .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #testi .testi_bg .testi_slider .slick-dots li button {
+        width: 12px;
+        height: 12px;
+    }
+
+    #testi .testi_bg {
+        padding: 30px 0 60px 0;
+    }
+
+    /* ==================  testimonial Part End  ================== */
+
+    /* ==================  membership Part Start  ================== */
+    #membership {
+        padding: 45px 0;
+    }
+
+    #membership .mem_row .mem_col {
+        padding-bottom: 20px;
+    }
+
+    #membership .mem_row .col-lg-4:last-child .mem_col {
+        padding-bottom: 0;
+    }
+
+    #membership .mem_row .mem_col h2 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    #membership .mem_row .mem_col h3 {
+        font-size: 25px;
+        line-height: 75px;
+    }
+
+    #membership .mem_row .mem_col ul {
+        padding: 15px 0;
+    }
+
+    #membership .mem_row .mem_col ul li {
+        padding: 10px 0;
+    }
+
+    #membership .mem_row .mem_col a {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    /* ==================  membership Part End  ================== */
+
+    /* ==================  Counter Part Start  ================== */
+    #counter {
+        padding: 30px 0;
+    }
+
+    #counter .counter_row .couter_text h2 {
+        font-size: 20px;
+    }
+
+    #counter .counter_row .couter_text p {
+        font-size: 12px;
+    }
+
+    /* ==================  Counter Part End  ================== */
+
+    /* ==================  Class Part Start  ================== */
+    #cls {
+        padding: 45px 0;
+    }
+
+    #cls .cls_col .cls_menu {
+        background: #fff;
+    }
+
+    #cls .cls_col .cls_menu li {
+        background: #f1f1f1;
+        margin: 3px;
+        width: 31.31%;
+    }
+
+    #cls .cls_col .cls_menu li button {
+        font-size: 12px;
+        line-height: 40px;
+        padding: 0 24px;
+        width: 100%;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    #cls .cls_col .cls_item ul li {
+        width: 48.31%;
+        padding: 10px 0;
+    }
+    #cls .cls_col .cls_item ul li h4 {
+        font-size: 15px;
+    }
+    #cls .cls_col .cls_item ul li i {
+        font-size: 38px;
+    }
+    #cls .cls_col .cls_item ul li p {
+        font-size: 11px;
+        margin-top: -8px;
+    }
+    #cls .cls_col .cls_item ul li:nth-child(5){
+        margin-right: 5px;
+    }
+    #cls .cls_col .cls_item ul li:nth-child(6),
+    #cls .cls_col .cls_item ul li:nth-child(7),
+    #cls .cls_col .cls_item ul li:nth-child(8),
+    #cls .cls_col .cls_item ul li:nth-child(9),
+    #cls .cls_col .cls_item ul li:last-child{
+        margin-bottom: 5px;
+    }
+
+    /* ==================  Class Part End  ================== */
+
+
+    /* ==================  logo Part Start  ================== */
+    .pre_arr,
+    .nxt_arr {
+        top: 100px;
+    }
+    .pre_arr{
+        left: 35%;
+        z-index: 3;
+    }
+    .nxt_arr{
+        right: 35%;
+        z-index: 3;
+    }
+    /* ==================  logo Part End  ================== */
+
+
+    /* ==================  footrt Part Start  ================== */
+    .footer_photos{
+        padding-bottom: 20px;
+    }
+    .footer_opening {
+        padding-bottom: 20px;
+    }
+    #footer .footer_bg .footer_row .footer_photos .photos_item li {
+        width: 22.29%;
+    }
+    #footer .footer_bg .footer_row .footer_photos .photos_item li:nth-child(5),
+    #footer .footer_bg .footer_row .footer_photos .photos_item li:nth-child(9){
+        margin-left: 10px;
+    }
+    /* ==================  footrt Part End  ================== */
+}
+
+@media(max-width:575.98px) {
+
+    /* ==================  Menu Part Start  ================== */
+    .main_menu {
+        background: var(--hover);
+    }
+
+    .main_menu .navbar-brand {
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        background: #111;
+    }
+
+    .main_menu .navbar-brand::after,
+    .main_menu .navbar-brand::before {
+        height: 50px;
+        background-color: #fff;
+    }
+
+    .main_menu .navbar-brand img {
+        width: 85px;
+    }
+
+    .main_menu .navbar-toggler i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu #navbarSupportedContent {
+        background: var(--hover);
+        text-align: center;
+    }
+
+    .main_menu #navbarSupportedContent ul li a::after {
+        display: none;
+    }
+
+    /* ==================  Menu Part End  ================== */
+
+    /* ==================  banner Part Start  ================== */
+    #banner .banner_text h2::after,
+    #banner .banner_text h2::before,
+    #banner .banner_text h1::after,
+    #banner .banner_text h1::before,
+    #banner .banner_text p::after,
+    #banner .banner_text p::before {
+        display: none;
+    }
+
+    #banner .banner_item {
+        padding: 180px 0 75px;
+    }
+
+    #banner .banner_item .banner_text h2 {
+        font-size: 20px;
+    }
+
+    #banner .banner_item .banner_text h1 {
+        font-size: 40px;
+    }
+
+    #banner .banner_item .banner_text p {
+        padding: 5px 10px 20px 10px;
+    }
+
+    #banner .banner_item .banner_text a {
+        padding: 8px 12px;
+        font-size: 13px;
+        margin: 0px 6px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #banner .slick-dots li button {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* ==================  banner Part End  ================== */
+
+    /* ==================  About Part Start  ================== */
+    #about {
+        padding: 45px 0;
+    }
+
+    #about .about_text p span {
+        padding: 10px 0 0 0;
+    }
+
+    #about .about_text p {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 5px 10px 10px 10px;
+    }
+
+    /* ==================  About Part End  ================== */
+
+    /* ==================  Gallary Part Start  ================== */
+    .gal_banner .gal_col .gal_img:last-child {
+        margin-bottom: 30px;
+    }
+
+    /* ==================  Gallary Part End  ================== */
+
+    /* ==================  team Part Start  ================== */
+    #team {
+        padding: 45px 0 0 0;
+    }
+
+    #team .team_col .team_img .ovrly {
+        width: 96%;
+        opacity: 1;
+    }
+
+    #team .team_col .team_text {
+        border: 1px solid #dddddd;
+        border-top: 1px solid transparent;
+    }
+
+    #team .team_col .team_text p {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    #team .team_col {
+        margin-bottom: 20px;
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+    }
+
+    #team .col-lg-3:last-child .team_col {
+        margin-bottom: 0;
+    }
+
+    /* ==================  team Part End  ================== */
+
+    /* ==================  testimonial Part Start  ================== */
+    #testi .testi_bg .testi_slider .slick-dots {
+        bottom: -40px;
+    }
+
+    #testi .testi_bg .testi_slider .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #testi .testi_bg .testi_slider .slick-dots li button {
+        width: 12px;
+        height: 12px;
+    }
+
+    #testi .testi_bg {
+        padding: 30px 0 60px 0;
+    }
+
+    /* ==================  testimonial Part End  ================== */
+
+    /* ==================  membership Part Start  ================== */
+    #membership {
+        padding: 45px 0;
+    }
+
+    #membership .mem_row .mem_col {
+        padding-bottom: 20px;
+    }
+
+    #membership .mem_row .col-lg-4:last-child .mem_col {
+        padding-bottom: 0;
+    }
+
+    #membership .mem_row .mem_col h2 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    #membership .mem_row .mem_col h3 {
+        font-size: 25px;
+        line-height: 75px;
+    }
+
+    #membership .mem_row .mem_col ul {
+        padding: 15px 0;
+    }
+
+    #membership .mem_row .mem_col ul li {
+        padding: 10px 0;
+    }
+
+    #membership .mem_row .mem_col a {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    /* ==================  membership Part End  ================== */
+
+    /* ==================  Counter Part Start  ================== */
+    #counter {
+        padding: 30px 0;
+    }
+
+    #counter .counter_row .couter_text h2 {
+        font-size: 20px;
+    }
+
+    #counter .counter_row .couter_text p {
+        font-size: 12px;
+    }
+
+    /* ==================  Counter Part End  ================== */
+
+    /* ==================  Class Part Start  ================== */
+    #cls {
+        padding: 45px 0;
+    }
+
+    #cls .cls_col .cls_menu {
+        background: #fff;
+    }
+
+    #cls .cls_col .cls_menu li {
+        background: #f1f1f1;
+        margin: 3px;
+        width: 31.31%;
+    }
+
+    #cls .cls_col .cls_menu li button {
+        font-size: 12px;
+        line-height: 40px;
+        padding: 0 24px;
+        width: 100%;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    #cls .cls_col .cls_item ul li {
+        width: 48.31%;
+        padding: 10px 0;
+    }
+    #cls .cls_col .cls_item ul li h4 {
+        font-size: 15px;
+    }
+    #cls .cls_col .cls_item ul li i {
+        font-size: 38px;
+    }
+    #cls .cls_col .cls_item ul li p {
+        font-size: 11px;
+        margin-top: -8px;
+    }
+    #cls .cls_col .cls_item ul li:nth-child(5){
+        margin-right: 5px;
+    }
+    #cls .cls_col .cls_item ul li:nth-child(6),
+    #cls .cls_col .cls_item ul li:nth-child(7),
+    #cls .cls_col .cls_item ul li:nth-child(8),
+    #cls .cls_col .cls_item ul li:nth-child(9),
+    #cls .cls_col .cls_item ul li:last-child{
+        margin-bottom: 5px;
+    }
+
+    /* ==================  Class Part End  ================== */
+
+
+    /* ==================  logo Part Start  ================== */
+    .pre_arr,
+    .nxt_arr {
+        top: 100px;
+    }
+    .pre_arr{
+        left: 35%;
+        z-index: 3;
+    }
+    .nxt_arr{
+        right: 35%;
+        z-index: 3;
+    }
+    /* ==================  logo Part End  ================== */
+
+
+    /* ==================  footrt Part Start  ================== */
+    .footer_photos{
+        padding-bottom: 20px;
+    }
+    .footer_opening {
+        padding-bottom: 20px;
+    }
+    #footer .footer_bg .footer_row .footer_photos .photos_item li {
+        width: 13.29%;
+    }
+    #footer .footer_bg .footer_row .footer_photos .photos_item li:nth-child(5),
+    #footer .footer_bg .footer_row .footer_photos .photos_item li:nth-child(9){
+        margin-left: 10px;
+    }
+    /* ==================  footrt Part End  ================== */
+}
